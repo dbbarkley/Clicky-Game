@@ -8,7 +8,6 @@ const Container = props => (
   </main>
   <footer className="footer">
     <div className="bottom">
-      Clicky Game
     </div>
   </footer>
   </>

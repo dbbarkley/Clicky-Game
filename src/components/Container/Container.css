@@ -1,5 +1,9 @@
+  .container {
+    border: 2px solid white;
+    border-radius:20px 20px;
+  }
   .footer {
-    height: 40px;
+    height: 20px;
     position: relative;
     color: #FFFDFD;
     overflow: auto;
