@@ -1,0 +1,39 @@
+.right {
+    animation: 1s right;
+  }
+  
+  .wrong {
+    animation: 1s wrong;
+  }
+  
+  @keyframes right{
+    0% {
+      color: white;
+    }
+    30% {
+      color: #105878;
+    }
+    60% {
+      color: white;
+    }
+    100% {
+      font-weight: #105878;
+    }
+  
+  }
+  
+  @keyframes wrong {
+    0% {
+      color: white;
+    }
+    30% {
+      color: #c62828;
+    }
+    60% {
+      color: white;
+    }
+    100% {
+      font-weight: #c62828;
+    }
+  
+  }
