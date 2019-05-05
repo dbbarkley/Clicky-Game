@@ -1,13 +1,17 @@
 .item {
     background-size: cover;
     background-position:top;
-    height: 160px;
-    width:90% !important;
-    margin:10px 0px;
-    border: 5px solid #533A71;
-    border-radius: 20px;
+    height: 175px;
+    width:80% !important;
+    margin:5px;
+    border:solid 15px;
+    border-bottom-color:#ffe;
+    border-left-color:#eed;
+    border-right-color:#eed;
+    border-top-color:#ccb;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     cursor: pointer;
+    
   }
   
   .item:hover {
@@ -19,6 +23,7 @@
   .shake {
     animation: shake .5s 0.0125s;
   }
+
   
   @keyframes shake {
     from,
