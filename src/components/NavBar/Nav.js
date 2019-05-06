@@ -10,6 +10,7 @@ const Nav = props => (
     <span className="col-12 col-md-4 points">Points: {props.score} | Top Score: {props.topScore}</span>
   </div>
     <header className="header">
+    <h3>If you click on the same Picture twice, you Lose!</h3>
   </header>
   </>
 );
